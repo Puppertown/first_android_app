@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_learn"
+        android:enabled="true"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="@string/bottom_nav_1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_practice"
+        android:enabled="true"
+        android:icon="@drawable/ic_gamepad_controller"
+        android:title="@string/bottom_nav_2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_extras"
+        android:enabled="true"
+        android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+        android:title="@string/bottom_nav_3"
+        app:showAsAction="ifRoom" />
+</menu>

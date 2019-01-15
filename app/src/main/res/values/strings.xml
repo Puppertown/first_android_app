@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_one">Button 1</string>
+    <string name="button_two">Button 2</string>
+    <string name="button_three">Button 3</string>
+    <string name="button_four">Button 4</string>
+    <string name="bottom_nav_1">Learn</string>
+    <string name="bottom_nav_2">Practice</string>
+    <string name="bottom_nav_3">Extras</string>
+</resources>
