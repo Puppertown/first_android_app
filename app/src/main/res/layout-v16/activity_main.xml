@@ -80,7 +80,7 @@
                     android:background="@drawable/rounded_background"
                     android:padding="10dp"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/ic_gamepad_controller" />
+                    app:srcCompat="@drawable/ic_abc_block" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -116,7 +116,7 @@
                     android:layout_weight="0"
                     android:background="@drawable/rounded_background"
                     android:padding="10dp"
-                    android:scaleType="centerInside"
+                    android:scaleType="fitXY"
                     app:srcCompat="@drawable/ic_chat" />
 
                 <TextView
@@ -132,24 +132,6 @@
                     android:textSize="18sp" />
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:text="@string/level_1"
-                android:textColor="@color/dark_red"
-                android:textSize="24sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.1"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-                tools:text="Level 1: The Basics" />
-
             <LinearLayout
                 android:id="@+id/linearLayout3"
                 android:layout_width="0dp"
@@ -162,20 +144,75 @@
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4">
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                <ImageButton
+                    android:id="@+id/imgBut_1_3"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_weight="0"
+                    android:background="@drawable/rounded_background"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_gamepad_controller" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0"
+                    android:fontFamily="casual"
+                    android:paddingLeft="16dp"
+                    android:text="@string/lv1_lesson_3"
+                    android:textColor="@color/dark_red"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/level_2"
+                android:textColor="@color/dark_red"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                tools:text="Level 1: The Basics" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8">
 
                 <ImageButton
                     android:id="@+id/imgBut_2_1"
                     android:layout_width="@dimen/icon_size"
                     android:layout_height="@dimen/icon_size"
                     android:layout_weight="0"
-                    android:background="@drawable/rounded_background"
+                    android:enabled="false"
+                    android:background="@drawable/rounded_background_locked"
                     android:padding="10dp"
-                    android:scaleType="centerInside"
-                    app:srcCompat="@drawable/ic_chat" />
+                    android:scaleType="centerInside" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -206,6 +243,19 @@
                 android:text="Button"
                 tools:layout_editor_absoluteX="161dp"
                 tools:layout_editor_absoluteY="1273dp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
         </android.support.constraint.ConstraintLayout>
 

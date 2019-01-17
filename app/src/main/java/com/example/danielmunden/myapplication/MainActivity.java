@@ -27,8 +27,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button_lv1_1.setOnClickListener(this); // calling onClick() method
         ImageButton button_lv1_2 = findViewById(R.id.imgBut_1_2);
         button_lv1_2.setOnClickListener(this);
+        ImageButton button_lv1_3 = findViewById(R.id.imgBut_1_3);
+        button_lv1_3.setOnClickListener(this);
         ImageButton button_lv2_1 = findViewById(R.id.imgBut_2_1);
         button_lv2_1.setOnClickListener(this);
+        button_lv2_1.setEnabled(false);
 
 
     }
@@ -53,8 +56,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 view.setBackgroundResource(R.drawable.rounded_background_filled);
                 break;
 
-            case R.id.imgBut_2_1:
+            case R.id.imgBut_1_3:
                 view.setBackgroundResource(R.drawable.rounded_background_filled);
+                break;
+
+            case R.id.imgBut_2_1:
+
+                if (view.isEnabled()) {
+                    view.setBackgroundResource(R.drawable.rounded_background_filled);
+                }
+
                 break;
 
             default:

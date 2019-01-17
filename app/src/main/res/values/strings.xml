@@ -16,4 +16,7 @@
     <string name="level_1">Level 1: The Basics</string>
     <string name="lv1_lesson_1">The Turkish Alphabet</string>
     <string name="lv1_lesson_2">Pronunciation</string>
+    <string name="lv1_lesson_3">First Words</string>
+    // Main Activity - Level 2
+    <string name="level_2">Level 2: Foundations</string>
 </resources>
