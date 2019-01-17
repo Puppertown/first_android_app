@@ -1,12 +1,17 @@
 package com.example.danielmunden.myapplication;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.example.danielmunden.MESSAGE";
@@ -19,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setSelectedItemId(R.id.action_learn);
 
 
+        ImageButton imageBut1 = findViewById(R.id.imageButton2);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.turkce_bunny);
+        RoundedBitmapDrawable roundedBitmapDrawable = RoundedBitmapDrawableFactory.create(getResources(), bitmap);
+        roundedBitmapDrawable.setCornerRadius(14);
+        imageBut1.setImageDrawable(roundedBitmapDrawable);
 
 
     }

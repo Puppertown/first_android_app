@@ -95,8 +95,12 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_sentiment_very_satisfied_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\Daniel Munden\Downloads\gamepad-controller.svg" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="height" value="473" />
+                            <entry key="outputName" value="ic_chat" />
+                            <entry key="overrideSize" value="true" />
+                            <entry key="sourceFile" value="C:\Users\Daniel Munden\Downloads\chat.svg" />
+                            <entry key="width" value="473" />
                           </map>
                         </option>
                       </PersistentState>
