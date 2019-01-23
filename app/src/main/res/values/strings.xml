@@ -1,5 +1,5 @@
 <resources>
-    // Main Activity - menu
+    <!-- Main Activity - menu -->
     <string name="app_name">My Application</string>
     <string name="edit_message">Enter a message</string>
     <string name="main_title">Hoşgeldiniz!</string>
@@ -8,15 +8,26 @@
     <string name="button_two">Button 2</string>
     <string name="button_three">Button 3</string>
     <string name="button_four">Button 4</string>
-    // Bottom Navigation
+    <!-- Bottom Navigation -->
     <string name="bottom_nav_1">Learn</string>
     <string name="bottom_nav_2">Practice</string>
     <string name="bottom_nav_3">Extras</string>
-    // Main Activity - Level 1
+    <!-- Main Activity - Level 1 -->
     <string name="level_1">Level 1: The Basics</string>
     <string name="lv1_lesson_1">The Turkish Alphabet</string>
     <string name="lv1_lesson_2">Pronunciation</string>
     <string name="lv1_lesson_3">First Words</string>
-    // Main Activity - Level 2
-    <string name="level_2">Level 2: Foundations</string>
+    <!-- Level 1, Lesson 1 -->
+    <string name="content1">
+        It was the best of times, it was the worst of times,\n
+        it was the age of wisdom, it was the age of foolishness,\n
+        it was the epoch of belief, it was the epoch of incredulity,\n
+        it was the season of Light, it was the season of Darkness,\n
+        it was the spring of hope, it was the winter of despair,\n
+        we had everything before us, we had nothing before us
+    </string>
+    <!-- Main Activity - Level 2 -->
+    <string name="level_2">Level 2: Vocabulary Foundations</string>
+    <string name="lv2_lesson_1">Greetings</string>
+    <string name="lv2_lesson_2">Conversations: 1</string>
 </resources>
